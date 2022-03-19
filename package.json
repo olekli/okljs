@@ -6,7 +6,8 @@
     "test": "jest"
   },
   "dependencies": {
-    "jest": "^27.4.5"
+    "jest": "^27.4.5",
+    "winston": "^3.6.0"
   },
   "repository": {
     "type": "git",
