@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "properties": {
+    "some_value": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "some_other_value": {
+      "type": "string"
+    }
+  },
+  "required": [ "some_value" ],
+  "additionalProperties": false
+}

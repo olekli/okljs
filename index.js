@@ -9,6 +9,9 @@ const { make_result, match_result, ok, err, make_ok, make_err, get_ok, get_err, 
 const { addLazyProperty } = require("./lib/lazy_property.js");
 const { match_enum } = require("./lib/enum.js");
 const { readJsons } = require("./lib/read_jsons.js");
+const { register_type, match_type, assert_type } = require('./lib/types.js');
+
+assert.type = assert_type;
 
 module.exports.assert = assert;
 module.exports.makeLogger = makeLogger;
@@ -26,3 +29,5 @@ module.exports.get_err = get_err;
 module.exports.useJestResultMatcher = useJestResultMatcher;
 module.exports.addLazyProperty = addLazyProperty;
 module.exports.readJsons = readJsons;
+module.exports.register_type = register_type;
+module.exports.match_type = match_type;
