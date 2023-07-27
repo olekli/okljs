@@ -1,0 +1,9 @@
+{
+  "$id": "Base",
+  "type": "object",
+  "properties": {
+    "value": { "enum": [ "derived1", "derived2" ] }
+  },
+  "required": [ "value" ],
+  "additionalProperties": false
+}
