@@ -1,0 +1,9 @@
+{
+  "$id": "Derived1",
+  "type": "object",
+  "properties": {
+    "value": { "const": "derived1" }
+  },
+  "required": [ "value" ],
+  "additionalProperties": false
+}

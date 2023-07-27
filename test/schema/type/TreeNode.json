@@ -2,7 +2,7 @@
   "type": "object",
   "$id": "TreeNode",
   "properties": {
-    "value": { "$ref": "MyTestString" },
+    "value": { "type": "string" },
     "left": { "$ref": "TreeNode" },
     "right": { "$ref": "TreeNode" }
   },
