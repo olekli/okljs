@@ -31,3 +31,4 @@ module.exports.addLazyProperty = addLazyProperty;
 module.exports.readJsons = readJsons;
 module.exports.register_type = register_type;
 module.exports.match_type = match_type;
+module.exports.make_type = (obj, types) => obj;
