@@ -1,0 +1,12 @@
+$id: TreeNode
+type: object
+properties:
+  value:
+    $ref: MyTestString
+  left:
+    $ref: TreeNode
+  right:
+    $ref: TreeNode
+additionalProperties: false
+required:
+  - value
