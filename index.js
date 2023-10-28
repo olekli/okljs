@@ -10,6 +10,7 @@ const { addLazyProperty } = require("./lib/lazy_property.js");
 const { match_enum } = require("./lib/enum.js");
 const { readJsons } = require("./lib/read_jsons.js");
 const { register_type, match_type, assert_type } = require('./lib/types.js');
+const { fileExists } = require('./lib/fs.js');
 
 assert.type = assert_type;
 
@@ -32,3 +33,4 @@ module.exports.addLazyProperty = addLazyProperty;
 module.exports.readJsons = readJsons;
 module.exports.register_type = register_type;
 module.exports.match_type = match_type;
+module.exports.fileExists = fileExists;
